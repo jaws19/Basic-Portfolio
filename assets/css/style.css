@@ -13,14 +13,24 @@ body {
   	background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/topography.png");
 }
 
-li {
-	display: inline;
-	content: "|";
-	padding: 4px;
+a:link {
+	color: #ccc;
+	text-decoration: none;
 }
 
-li:last-child {
-	border: none;
+a:visited {
+	color: #ccc;
+	text-decoration: none;
+}
+
+a:hover {
+    color: #4aaaa5;
+    text-decoration: none;
+}
+
+a:active {
+    color: #4aaaa5;
+    text-decoration: none;
 }
 
 h1 {
@@ -81,13 +91,30 @@ h3 {
 #name {
 	float: left;
 	padding: 0 10px 0 10px;
+	margin: 0 0 0 -4px;
 	background-color: #4aaaa5;
 }
 
 #navigation {
+	display: inline;
 	float: right;
 	padding-right: 40px;
+	padding-top: 20px;
 }
+
+li {
+	display: inline;
+	padding: 0 10px 0 10px;
+}
+
+li:first-child {
+	padding-right: none;
+}
+
+li+li { 
+	border-left: 1px solid #ddd 
+}
+
 
 /* About Page */	
 
@@ -118,36 +145,6 @@ h3 {
 	border-width: 1px;
 	border-color: #ddd;
 	margin: 15px;
-}
-
-#project1 {
-	width: 287px;
-	height: 200px;
-	margin: 20px 20px 20px 0; 
-}
-
-#project2 {
-	width: 287px;
-	height: 200px;
-	margin: 20px 0 20px 0; 	
-}
-
-#project3 {
-	width: 287px;
-	height: 200px;
-	margin: 0 20px 20px 0; 	
-}
-
-#project4 {
-	width: 287px;
-	height: 200px;
-	margin: 0 0 20px 0; 	
-}
-
-#project5 {
-	width: 287px;
-	height: 200px;
-	margin: 0 20px 20px 0; 	
 }
 
 /* Contact Page */
@@ -222,6 +219,7 @@ input[type=submit]:hover {
 /* Footer */
 
 .footer {
+	bottom: 0;
 	width: 100%;
 	float: left;
 	margin: auto;
@@ -234,12 +232,171 @@ input[type=submit]:hover {
 	border-top-color: #4aaaa5;
 }
 
+/* --- Image Overlay --- */
 
+/* Project 1 - Hangman */
 
-	
+.caption1 {
+	float: left;
+	position: relative;
+	padding: 0;
+	margin: 20px 20px 20px 0;
+}
 
-	
+.caption1 img {
+	float: left;
+	display: block;
+	width: 290px;
+	height: 200px;
+}
 
+.caption-text1 {
+	display: block;
+	position: absolute;
+	width: 290px;
+	text-align: center;
+	color: #fff;
+	left: 0;
+	bottom: 10px;
+	padding: 12px;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 22px;
+	z-index: 2;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #4aaaa5;
+}
 
+/* Project 2 - RPG Game */
+
+.caption2 {
+	float: left;
+	position: relative;
+	padding: 0;
+	margin: 20px 0 20px 0;
+}
+
+.caption2 img {
+	float: left;
+	display: block;
+	width: 290px;
+	height: 200px;
+}
+
+.caption-text2 {
+	display: block;
+	position: absolute;
+	width: 290px;
+	text-align: center;
+	color: #fff;
+	left: 0;
+	bottom: 10px;
+	padding: 12px;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 22px;
+	z-index: 2;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #4aaaa5;
+}
+
+/* Project 3 - Trivia Game */
+
+.caption3 {
+	float: left;
+	position: relative;
+	padding: 0;
+	margin: 0 20px 20px 0;
+}
+
+.caption3 img {
+	float: left;
+	display: block;
+	width: 290px;
+	height: 200px;
+}
+
+.caption-text3 {
+	display: block;
+	position: absolute;
+	width: 290px;
+	text-align: center;
+	color: #fff;
+	left: 0;
+	bottom: 10px;
+	padding: 12px;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 22px;
+	z-index: 2;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #4aaaa5;
+}
+
+/* Project 4 - Rutgers Info Widget */
+
+.caption4 {
+	float: left;
+	position: relative;
+	padding: 0;
+	margin: 0 0 20px 0;
+}
+
+.caption4 img {
+	float: left;
+	display: block;
+	width: 290px;
+	height: 200px;
+}
+
+.caption-text4 {
+	display: block;
+	position: absolute;
+	width: 290px;
+	text-align: center;
+	color: #fff;
+	left: 0;
+	bottom: 10px;
+	padding: 12px;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 22px;
+	z-index: 2;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #4aaaa5;
+}
+
+/* Project 5 - Rock Paper Scissors */
+
+.caption5 {
+	float: left;
+	position: relative;
+	padding: 0;
+	margin: 0 20px 20px 0;
+}
+
+.caption5 img {
+	float: left;
+	display: block;
+	width: 290px;
+	height: 200px;
+}
+
+.caption-text5 {
+	display: block;
+	position: absolute;
+	width: 290px;
+	text-align: center;
+	color: #fff;
+	left: 0;
+	bottom: 10px;
+	padding: 12px;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 22px;
+	z-index: 2;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #4aaaa5;
+}
 
 
