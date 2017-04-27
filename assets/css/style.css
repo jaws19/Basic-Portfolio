@@ -1,4 +1,4 @@
-/* The Basics */
+/* ---------- The Basics ---------- */
 
 body {
 	width: 100%;
@@ -11,26 +11,6 @@ body {
   	color: #777;
   	background: #fff;
   	background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/topography.png");
-}
-
-a:link {
-	color: #777;
-	text-decoration: none;
-}
-
-a:visited {
-	color: #777;
-	text-decoration: none;
-}
-
-a:hover {
-    color: #4aaaa5;
-    text-decoration: none;
-}
-
-a:active {
-    color: #4aaaa5;
-    text-decoration: none;
 }
 
 h1 {
@@ -64,13 +44,13 @@ h3 {
 	border-top: 1px solid #ccc;
 }
 
-/* Header */
+/* ---------- Header ---------- */
 
 .header {
 	width: 100%;
 	display: inline-block;
 	margin: 0;
-	padding: 20px 20px 10px 20px;
+	padding: 20px 20px 11px 20px;
 	height: 70px;
 	background-color: #fff;
 	border-bottom-style: solid;
@@ -95,23 +75,51 @@ h3 {
 	background-color: #4aaaa5;
 }
 
+/* ---------- Navigation ---------- */
+
 #navigation {
 	display: inline;
 	float: right;
-	padding-right: 40px;
+	padding-right: 25px;
 	padding-top: 20px;
 }
+
+
 li {
 	display: inline;
-	padding: 0 10px 0 10px;
+	padding: 0 10px 0 10px
 }
 
 li+li { 
 	border-left: 1px solid #ddd 
 }
 
+li:last {
+	padding-right: none
+}
 
-/* About Page */	
+a:link {
+	color: #777;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #777;
+	text-decoration: none;
+}
+
+a:hover {
+    color: #4aaaa5;
+    text-decoration: none;
+}
+
+a:active {
+    color: #4aaaa5;
+    text-decoration: none;
+}
+
+
+/* ---------- About Page ---------- */	
 
 #about {
 	width: 600px;
@@ -129,7 +137,7 @@ li+li {
 	margin: 10px 20px 20px 0;
 }
 
-/* Portfolio Page */
+/* ---------- Portfolio Page ---------- */
 
 #portfolio {
 	width: 600px;
@@ -142,7 +150,172 @@ li+li {
 	margin: 15px;
 }
 
-/* Contact Page */
+	/* Project 1 - Hangman */
+
+	.caption1 {
+		float: left;
+		position: relative;
+		padding: 0;
+		margin: 20px 20px 20px 0;
+	}
+
+	.caption1 img {
+		float: left;
+		display: block;
+		width: 290px;
+		height: 200px;
+	}
+
+	.caption-text1 {
+		display: block;
+		position: absolute;
+		width: 290px;
+		text-align: center;
+		color: #fff;
+		left: 0;
+		bottom: 10px;
+		padding: 12px;
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-size: 22px;
+		z-index: 2;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		background-color: #4aaaa5;
+	}
+
+	/* Project 2 - RPG Game */
+
+	.caption2 {
+		float: left;
+		position: relative;
+		padding: 0;
+		margin: 20px 0 20px 0;
+	}	
+
+	.caption2 img {
+		float: left;
+		display: block;
+		width: 290px;
+		height: 200px;
+	}
+
+	.caption-text2 {
+		display: block;
+		position: absolute;
+		width: 290px;
+		text-align: center;
+		color: #fff;
+		left: 0;
+		bottom: 10px;
+		padding: 12px;
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-size: 22px;
+		z-index: 2;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		background-color: #4aaaa5;
+	}
+
+	/* Project 3 - Trivia Game */
+
+	.caption3 {
+		float: left;
+		position: relative;
+		padding: 0;
+		margin: 0 20px 20px 0;
+	}
+
+	.caption3 img {
+		float: left;
+		display: block;
+		width: 290px;
+		height: 200px;
+	}
+
+	.caption-text3 {
+		display: block;
+		position: absolute;
+		width: 290px;
+		text-align: center;
+		color: #fff;
+		left: 0;
+		bottom: 10px;
+		padding: 12px;
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-size: 22px;
+		z-index: 2;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		background-color: #4aaaa5;
+	}
+
+	/* Project 4 - Rutgers Info Widget */
+
+	.caption4 {
+		float: left;
+		position: relative;
+		padding: 0;
+		margin: 0 0 20px 0;
+	}
+
+	.caption4 img {
+		float: left;
+		display: block;
+		width: 290px;
+		height: 200px;
+	}
+
+	.caption-text4 {
+		display: block;
+		position: absolute;
+		width: 290px;
+		text-align: center;
+		color: #fff;
+		left: 0;
+		bottom: 10px;
+		padding: 12px;
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-size: 22px;
+		z-index: 2;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		background-color: #4aaaa5;
+	}
+
+	/* Project 5 - Rock Paper Scissors */
+
+	.caption5 {
+		float: left;
+		position: relative;
+		padding: 0;
+		margin: 0 20px 20px 0;
+	}
+
+	.caption5 img {
+		float: left;
+		display: block;
+		width: 290px;
+		height: 200px;
+	}
+
+	.caption-text5 {
+		display: block;
+		position: absolute;
+		width: 290px;
+		text-align: center;
+		color: #fff;
+		left: 0;
+		bottom: 10px;
+		padding: 12px;
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-size: 22px;
+		z-index: 2;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		background-color: #4aaaa5;
+	}
+
+/* ---------- Contact Page ---------- */
 
 #contact {
 	width: 600px;
@@ -155,32 +328,32 @@ li+li {
 	margin: 15px;
 }
 
-/* Contact Form */
+	/* Contact Form */
 
-input[type=text], textarea {
-    width: 100%;
-    padding: 12px; 
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical 
-}
+	input[type=text], textarea {
+    	width: 100%;
+    	padding: 12px; 
+    	border: 1px solid #ccc;
+    	box-sizing: border-box;
+    	margin-top: 6px;
+    	margin-bottom: 16px;
+    	resize: vertical 
+	}
 
-input[type=submit] {
-    background-color: #4aaaa5;
-    font-size: 18px;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-}
+	input[type=submit] {
+    	background-color: #4aaaa5;
+    	font-size: 18px;
+    	color: white;
+    	padding: 12px 20px;
+    	border: none;
+    	cursor: pointer;
+	}
 
-input[type=submit]:hover {
-    background-color: #666;
-}
+	input[type=submit]:hover {
+    	background-color: #666;
+	}
 
-/* Sidebar */
+/* ---------- Sidebar ---------- */
 
 #connect {
 	width: 220px;
@@ -211,7 +384,7 @@ input[type=submit]:hover {
 	margin: 10px 0 10px 0;
 }
 
-/* Footer */
+/* ---------- Footer ---------- */
 
 .footer {
 	bottom: 0;
@@ -225,173 +398,6 @@ input[type=submit]:hover {
 	border-top-style: solid;
 	border-top-width: 8px;
 	border-top-color: #4aaaa5;
-}
-
-/* --- Image Overlay --- */
-
-/* Project 1 - Hangman */
-
-.caption1 {
-	float: left;
-	position: relative;
-	padding: 0;
-	margin: 20px 20px 20px 0;
-}
-
-.caption1 img {
-	float: left;
-	display: block;
-	width: 290px;
-	height: 200px;
-}
-
-.caption-text1 {
-	display: block;
-	position: absolute;
-	width: 290px;
-	text-align: center;
-	color: #fff;
-	left: 0;
-	bottom: 10px;
-	padding: 12px;
-	font-family: Georgia, Times, "Times New Roman", serif;
-	font-size: 22px;
-	z-index: 2;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	background-color: #4aaaa5;
-}
-
-/* Project 2 - RPG Game */
-
-.caption2 {
-	float: left;
-	position: relative;
-	padding: 0;
-	margin: 20px 0 20px 0;
-}
-
-.caption2 img {
-	float: left;
-	display: block;
-	width: 290px;
-	height: 200px;
-}
-
-.caption-text2 {
-	display: block;
-	position: absolute;
-	width: 290px;
-	text-align: center;
-	color: #fff;
-	left: 0;
-	bottom: 10px;
-	padding: 12px;
-	font-family: Georgia, Times, "Times New Roman", serif;
-	font-size: 22px;
-	z-index: 2;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	background-color: #4aaaa5;
-}
-
-/* Project 3 - Trivia Game */
-
-.caption3 {
-	float: left;
-	position: relative;
-	padding: 0;
-	margin: 0 20px 20px 0;
-}
-
-.caption3 img {
-	float: left;
-	display: block;
-	width: 290px;
-	height: 200px;
-}
-
-.caption-text3 {
-	display: block;
-	position: absolute;
-	width: 290px;
-	text-align: center;
-	color: #fff;
-	left: 0;
-	bottom: 10px;
-	padding: 12px;
-	font-family: Georgia, Times, "Times New Roman", serif;
-	font-size: 22px;
-	z-index: 2;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	background-color: #4aaaa5;
-}
-
-/* Project 4 - Rutgers Info Widget */
-
-.caption4 {
-	float: left;
-	position: relative;
-	padding: 0;
-	margin: 0 0 20px 0;
-}
-
-.caption4 img {
-	float: left;
-	display: block;
-	width: 290px;
-	height: 200px;
-}
-
-.caption-text4 {
-	display: block;
-	position: absolute;
-	width: 290px;
-	text-align: center;
-	color: #fff;
-	left: 0;
-	bottom: 10px;
-	padding: 12px;
-	font-family: Georgia, Times, "Times New Roman", serif;
-	font-size: 22px;
-	z-index: 2;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	background-color: #4aaaa5;
-}
-
-/* Project 5 - Rock Paper Scissors */
-
-.caption5 {
-	float: left;
-	position: relative;
-	padding: 0;
-	margin: 0 20px 20px 0;
-}
-
-.caption5 img {
-	float: left;
-	display: block;
-	width: 290px;
-	height: 200px;
-}
-
-.caption-text5 {
-	display: block;
-	position: absolute;
-	width: 290px;
-	text-align: center;
-	color: #fff;
-	left: 0;
-	bottom: 10px;
-	padding: 12px;
-	font-family: Georgia, Times, "Times New Roman", serif;
-	font-size: 22px;
-	z-index: 2;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	background-color: #4aaaa5;
 }
 
 
