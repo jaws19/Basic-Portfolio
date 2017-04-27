@@ -14,12 +14,12 @@ body {
 }
 
 a:link {
-	color: #ccc;
+	color: #777;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #ccc;
+	color: #777;
 	text-decoration: none;
 }
 
@@ -101,14 +101,9 @@ h3 {
 	padding-right: 40px;
 	padding-top: 20px;
 }
-
 li {
 	display: inline;
 	padding: 0 10px 0 10px;
-}
-
-li:first-child {
-	padding-right: none;
 }
 
 li+li { 
